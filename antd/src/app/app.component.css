@@ -1,0 +1,42 @@
+.app-body {
+    padding: 0px 10px;
+    border: 2px solid #60aace;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: white !important;
+}
+
+.header {
+    color: #136370;
+}
+
+.component-area {
+    border: 1px dotted #95c1dc;
+    height: auto;
+    margin: 5px 0px;
+}
+
+.ant-man-icon {
+    width:70px;
+    height:70px;
+    position: fixed;
+    right: 5px;
+    bottom: 0px;
+}
+
+.user-detail-header {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+    border-bottom: 1px solid #8dbedf;
+}
+
+.user-detail-section {
+    margin: 10px;
+}
+
+.border {
+    border: 1px solid #1890ff;
+    border-radius: 50%;
+}
