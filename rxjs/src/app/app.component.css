@@ -1,0 +1,20 @@
+.app-body {
+    height: 650px;
+}
+
+.rxjs-logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.main-content {
+    box-shadow: 0 -5px 2px 0 #e90a8e;
+    margin-top: 5px;
+    padding: 5px 10px 10px 10px;
+    height: 100%;
+}
+
+.tab-content{
+    padding: 10px;
+}
