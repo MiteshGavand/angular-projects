@@ -7,17 +7,26 @@
     <mat-tab-group>
       <mat-tab label="Call Back"> 
         <div class="tab-content">
-          Content 1
+          <button #cbFetchBtn class="fetch-user-btn">Fetch User</button>
+          <br>
+          <br>
+          <div #cbUserDiv></div>
         </div>
       </mat-tab>
       <mat-tab label="Promise"> 
         <div class="tab-content">
-          Content 2
+          <button #pFetchBtn class="fetch-user-btn">Fetch User</button>
+          <br>
+          <br>
+          <div #pUserDiv></div>
         </div>  
       </mat-tab>
       <mat-tab label="Observable"> 
         <div class="tab-content">
-          Content 3
+          <button #obFetchBtn class="fetch-user-btn">Fetch User</button>
+          <br>
+          <br>
+          <div #obUserDiv></div>
         </div>  
       </mat-tab>
     </mat-tab-group>

@@ -6,6 +6,16 @@
     width: 70px;
     height: 70px;
     position: relative;
+    -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
 }
 
 .main-content {
@@ -17,4 +27,14 @@
 
 .tab-content{
     padding: 10px;
+}
+
+.fetch-user-btn {
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lavender;
+    border: 1px hotpink double;
+    cursor: pointer;
+    outline: none;
 }
